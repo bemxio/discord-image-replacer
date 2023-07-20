@@ -12,6 +12,10 @@ env/
 .env/
 env.bak/
 
+# Environment files
+.env
+.venv
+
 # JetBrains (PyCharm, IntelliJ IDEA, etc.)
 .idea/
 
@@ -20,10 +24,14 @@ env.bak/
 
 # Certificate files
 *.pem
+*.crt
+*.key
 
-# Environment files
-.env
-.venv
+# Image files
+*.jpg
+*.jpeg
+*.png
+*.webp
 
 # Log files
 *.log
