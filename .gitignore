@@ -1,0 +1,29 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual environments
+venv/
+.venv/
+venv.bak/
+
+env/
+.env/
+env.bak/
+
+# JetBrains (PyCharm, IntelliJ IDEA, etc.)
+.idea/
+
+# Visual Studio Code
+.vscode/
+
+# Certificate files
+*.pem
+
+# Environment files
+.env
+.venv
+
+# Log files
+*.log
