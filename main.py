@@ -16,7 +16,7 @@ if __name__ == "__main__":
     server = HTTPServer(("cdn.discordapp.com", 443), ImageRequestHandler)
 
     context = ssl.create_default_context(ssl.Purpose.CLIENT_AUTH)
-    context.load_cert_chain(certfile="cert/certificate.pem", keyfile="cert/key.pem")
+    context.load_cert_chain(certfile="cert.pem", keyfile="key.pem")
 
     server.socket = context.wrap_socket(server.socket, server_side=True)
 
